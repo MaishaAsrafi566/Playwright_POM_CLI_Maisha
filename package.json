@@ -1,0 +1,21 @@
+{
+  "name": "playwright_pom_cli_maisha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "playwright test",
+  "test:login": "playwright test tests/login.spec.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  },
+  "dependencies": {
+    "playwright": "^1.65.0",
+    "playwright-core": "^1.65.0"
+  }
+}
